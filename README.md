@@ -14,7 +14,7 @@ oniisama
 M-x imouto : 妹を呼び出します。
 改行、バッファの保存時に優しい言葉をかけてくれます。
 
-M-x uruzaizo : 妹を自室に戻らせます。
+M-x urusaizo : 妹を自室に戻らせます。
 
 M-x aishiteiruyo,
     kireidayo,
