@@ -2,15 +2,15 @@
 ;; Place this file on ~/elisp/ or other valid folder
 ;; Write (require 'oniisama) on your .emacs.d
 
-(defun msg-sasuga () (message "流石です、お兄様！"))
-(defun msg-otsukare () (message "お疲れ様でした、お兄様！"))
+(defun msg-sasuga () (message "すごいじゃない！ しれーかん！"))
+(defun msg-otsukare () (message "しれーかん！ お疲れさま！"))
 
 (defadvice newline (after after-msg disable)
   (msg-sasuga))
 
 (defun imouto ()
   (interactive)
-  (message "お呼びですか、お兄様？")
+  (message "しれーかん！ 呼んだ？")
   (add-hook 'after-save-hook 'msg-otsukare)
   (ad-enable-regexp "after-msg")
   (ad-activate-regexp "after-msg")
@@ -18,7 +18,7 @@
 
 (defun urusaizo ()
   (interactive)
-  (message "申し訳ありませんでした、お兄様。")
+  (message "ごめんね。しれーかん……")
   (ad-disable-regexp "after-msg")
   (ad-activate-regexp "after-msg")
   (remove-hook 'after-save-hook 'msg-otsukare)
@@ -26,18 +26,18 @@
 
 (defun aishiteiruyo ()
   (interactive)
-  (message "私も愛しております、お兄様。"))
+  (message "私も大好きよ、しれーかん！"))
 
 (defun kireidayo ()
   (interactive)
-  (message "そんな……お兄様……///"))
+  (message "褒めてもなにもでないわよー しれーかん"))
 
 (defun tsukareta ()
   (interactive)
-  (message "お兄様なら、きっとまだ頑張れます！私は信じています。"))
+  (message "今日はもう休んで、明日がんばりましょ？"))
 
 (defun tsurai ()
   (interactive)
-  (message "お兄様がいつも頑張っているのは知っています。今日くらいは休みましょう？"))
+  (message "大丈夫よ。私がいるじゃない！"))
 
 (provide 'oniisama)
