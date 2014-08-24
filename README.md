@@ -20,7 +20,7 @@ oniisama
 
 `M-x urusaizo` : 妹を自室に戻らせます。
 
-`M-x aishiteiruyo,kireidayo,sukareta,surai` : 妹へそれぞれ声をかけます。
+`M-x aishiteiruyo,kireidayo,tsukareta,tsurai` : 妹へそれぞれ声をかけます。
 
 コメント
 -------
