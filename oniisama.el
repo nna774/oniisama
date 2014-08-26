@@ -21,8 +21,7 @@
   (message "申し訳ありませんでした、お兄様。")
   (ad-disable-regexp "after-msg")
   (ad-activate-regexp "after-msg")
-  (remove-hook 'after-save-hook 'msg-otsukare)
-  (remove-hook 'compilation-mode-hook 'msg-tensai))
+  (remove-hook 'after-save-hook 'msg-otsukare))
 
 (defun aishiteiruyo ()
   (interactive)
