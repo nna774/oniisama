@@ -1,6 +1,25 @@
+;;; oniisama.el --- summon the beauteous sister on your Emacs
 
+;; Copyright (C) 2014 yu_i9 <allgemeiner.pc@gmail.com>
+     
+;; Author: yu_i9 <allgemeiner.pc@gmail.com>
+;; Maintainer: yu_i9 <allgemeiner.pc@gmail.com>
+;; Created: 24 Aug 2014
+;; Keywords: imouto, moe
+
+;; This file is not part of GNU Emacs.
+
+;;; License
+;; This file is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation
+
+;;; Usage   
 ;; Place this file on ~/elisp/ or other valid folder
 ;; Write (require 'oniisama) on your .emacs.d
+
+
+;;; code 
 
 (defun msg-sasuga () (message "流石です、お兄様！"))
 (defun msg-otsukare () (message "お疲れ様でした、お兄様！"))
@@ -40,3 +59,5 @@
   (message "お兄様がいつも頑張っているのは知っています。今日くらいは休みましょう？"))
 
 (provide 'oniisama)
+
+;;; oniisama.el ends here
