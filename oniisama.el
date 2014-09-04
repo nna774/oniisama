@@ -10,9 +10,9 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; License
-;; This file is free software; you can redistribute it and/or modify
-;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation
+;; This program is published in accordance with the GNU General Public License v3.0.
+;; Full text of the license : <http://www.gnu.org/licenses/gpl.html>
+
 
 ;;; Usage   
 ;; Place this file on ~/elisp/ or other valid folder
